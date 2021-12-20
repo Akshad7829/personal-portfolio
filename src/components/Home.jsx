@@ -76,7 +76,7 @@ export default class Home extends Component {
           </h2>
          
               <h3 className='hero-profession' data-aos='fade-up-right'>
-                 Web-Developer , Coder , Student at GCE Karad
+                 Web-Developer , Coder
               {/* <Typical
         steps={['Web Developer', 1000, 'Coder', 500]}
         loop={Infinity}
