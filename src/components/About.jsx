@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { IconContext } from 'react-icons';
 import { BiDownload } from 'react-icons/bi';
 import { BsCheckCircle } from 'react-icons/bs';
-import photo from '../assets/images/Photo.jpeg';
+import photo from '../assets/images/Photo.jpg';
 import resume from '../assets/Barack Mukelenga Resume.pdf';
 import { Link } from 'react-scroll';
 
@@ -28,7 +28,7 @@ export default class About extends Component {
           <p className='about-work' data-aos='fade-up'>
         
 
-Iam trying to seek an entry-Level position to begin my Carrer in high-level Professional environment.
+Iam trying to seek an entry-Level position to begin my Carrier in high-level Professional environment.
 
 
           </p>
