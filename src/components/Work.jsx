@@ -78,7 +78,7 @@ export default class Work extends Component {
             </div> */}
             <div className="work-item-wrapper">
               <div className="icon-wrapper">
-                <img className="web-img" src={per} alt="web" />
+                <img className="" src={per}height="100px" alt="web" />
               </div>
               {/* <div className="text-wrapper">Frontend Develpment</div> */}
             </div>
@@ -171,13 +171,14 @@ acquired a deep knowledge of operating system ,database management system and C+
             </div> */}
             <div className="work-item-wrapper">
               <div className="icon-wrapper">
-                <img className="web-img" src={TCS} alt="web" />
+                <img className="  "height="100px" src={TCS} alt="web" />
               </div>
               {/* <div className="text-wrapper">Frontend Develpment</div> */}
             </div>
           </div>
        
         </div>
+        
         <div className="right-area-main-container">
           {/* <div className="home-hello-wrapper" data-aos="fade-up">
             <div className="hello-line"></div>
@@ -188,7 +189,7 @@ acquired a deep knowledge of operating system ,database management system and C+
                     </h2>
 
           <p className="about-work" data-aos="fade-up">
-          TCS CodeVita, is a coding contest  to sharpen their programming skills through real-life computing practices.  Got a Global Rank of 4381 in TCS Codevita 2022 Season 10.
+          TCS CodeVita, is a coding contest  to sharpen programming skills through real-life computing practices.  Got a Global Rank of 4381 in TCS Codevita 2022 Season 10.
            </p>
         </div>
         
@@ -262,7 +263,7 @@ acquired a deep knowledge of operating system ,database management system and C+
             </div> */}
             <div className="work-item-wrapper">
               <div className="icon-wrapper">
-                <img className="web-img" src={cap} alt="web" />
+                <img className="" src={cap} height="100px"alt="web" />
               </div>
               {/* <div className="text-wrapper">Frontend Develpment</div> */}
             </div>
@@ -356,7 +357,7 @@ Prize as Branded merchandise of Capgemini
             </div> */}
             <div className="work-item-wrapper">
               <div className="icon-wrapper">
-                <img className="web-img" src={hack} alt="web" />
+                <img className="" src={hack} height="100px"alt="web" />
               </div>
               {/* <div className="text-wrapper">Frontend Develpment</div> */}
             </div>

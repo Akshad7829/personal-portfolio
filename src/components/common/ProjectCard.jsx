@@ -7,6 +7,7 @@ import truncateStr from "../utils/truncateStr";
 export default class ProjectCard extends Component {
   render() {
     const { project } = this.props;
+
     return (
       <>
         <div
@@ -14,10 +15,12 @@ export default class ProjectCard extends Component {
           className="project-item-wrapper"
           data-aos={project.animation}
         >
+        <div className="desc">
           <h3 className="project-title">{project.title}</h3>
           <p className="project-details">
             {truncateStr(project.description, 500)}
           </p>
+ 
           <div className="project-links">
             <a href={project.demoLink} target="blank">
               Live Demo{" "}
@@ -39,6 +42,8 @@ export default class ProjectCard extends Component {
               </div>
             ))}
           </div>
+          </div>
+
           <div className="project-images-preview">
             <img src={project.image} alt="" />
           </div>

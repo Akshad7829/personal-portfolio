@@ -108,6 +108,7 @@ export default class About extends Component {
               </IconContext.Provider>
             </a> */}
           </div>
+          
         </div>
         <div className='right-about-page-area' data-aos='fade-up-left'>
           <div className='image-container'>

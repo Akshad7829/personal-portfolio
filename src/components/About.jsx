@@ -21,21 +21,15 @@ export default class About extends Component {
           </h2>
 
           <p className='about-work' data-aos='fade-up'>
-          I am Akshad Swaroop Nayakwadi, Currently pursuing Information Technology B.Tech degree in Government College Of Engineeering Karad, India
-
-
+          I am Akshad Swaroop Nayakwadi, Completed B.Tech degree in Information Technology from Government College Of Engineering Karad, India.
           </p>
-          <p className='about-work' data-aos='fade-up'>
-        
 
-Iam trying to seek an entry-Level position to begin my Carrier in high-level Professional environment.
+          <p className='about-work' data-aos='fade-up'>Currently Working as <b className='slogan1'>Graduate Trainee Engineer - Technology at Digit Insurance.</b></p>
 
-
-          </p>
           <p className='about-work' data-aos='fade-up'>
    
 
-I have gained experience in Front-End Web development. Please feel free to contact. Cheers !!
+I'am  Front-End Web and Java development Enthusiast. Feel free to contact. Cheers !!
           </p>
           <h3 className='languages-title' data-aos='fade-up'>
             Languages and <span>Frameworks</span>
@@ -63,7 +57,47 @@ I have gained experience in Front-End Web development. Please feel free to conta
                   <BsCheckCircle />
                 </IconContext.Provider>
               </div>
-              <h3>Java</h3>
+              <h3>Core , Advance Java</h3>
+            </div>
+            <div className='work-about-item-wrapper' data-aos='fade-up-left'>
+              <div className='check-icon'>
+                <IconContext.Provider value={{ className: 'check-list-icon' }}>
+                  <BsCheckCircle />
+                </IconContext.Provider>
+              </div>
+              <h3>Servlets</h3>
+            </div>
+            <div className='work-about-item-wrapper' data-aos='fade-up-left'>
+              <div className='check-icon'>
+                <IconContext.Provider value={{ className: 'check-list-icon' }}>
+                  <BsCheckCircle />
+                </IconContext.Provider>
+              </div>
+              <h3>Spring MVC</h3>
+            </div>
+            <div className='work-about-item-wrapper' data-aos='fade-up-left'>
+              <div className='check-icon'>
+                <IconContext.Provider value={{ className: 'check-list-icon' }}>
+                  <BsCheckCircle />
+                </IconContext.Provider>
+              </div>
+              <h3>SpringBoot</h3>
+            </div>
+            <div className='work-about-item-wrapper' data-aos='fade-up-left'>
+              <div className='check-icon'>
+                <IconContext.Provider value={{ className: 'check-list-icon' }}>
+                  <BsCheckCircle />
+                </IconContext.Provider>
+              </div>
+              <h3>Hibernate</h3>
+            </div>
+            <div className='work-about-item-wrapper' data-aos='fade-up-left'>
+              <div className='check-icon'>
+                <IconContext.Provider value={{ className: 'check-list-icon' }}>
+                  <BsCheckCircle />
+                </IconContext.Provider>
+              </div>
+              <h3> JavaServer Pages (JSP)</h3>
             </div>
             <div className='work-about-item-wrapper' data-aos='fade-up-right'>
               <div className='check-icon'>
@@ -121,14 +155,7 @@ I have gained experience in Front-End Web development. Please feel free to conta
               </div>
               <h3>Data Structures And Algorithms</h3>
             </div>
-            <div className='work-about-item-wrapper' data-aos='fade-up-right'>
-              <div className='check-icon'>
-                <IconContext.Provider value={{ className: 'check-list-icon' }}>
-                  <BsCheckCircle />
-                </IconContext.Provider>
-              </div>
-              <h3>Computer Networks</h3>
-            </div>
+           
             <div className='work-about-item-wrapper' data-aos='fade-up-right'>
               <div className='check-icon'>
                 <IconContext.Provider value={{ className: 'check-list-icon' }}>
@@ -136,6 +163,14 @@ I have gained experience in Front-End Web development. Please feel free to conta
                 </IconContext.Provider>
               </div>
               <h3>Database Management System</h3>
+            </div>
+            <div className='work-about-item-wrapper' data-aos='fade-up-right'>
+              <div className='check-icon'>
+                <IconContext.Provider value={{ className: 'check-list-icon' }}>
+                  <BsCheckCircle />
+                </IconContext.Provider>
+              </div>
+              <h3>Operating System</h3>
             </div>
           </div>
           <div className='btn-wrapper about' data-aos='fade-up'>

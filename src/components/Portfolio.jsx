@@ -3,6 +3,7 @@ import ProjectCard from "./common/ProjectCard";
 import book from "../assets/images/book.png";
 import picture from "../assets/images/picture.png";
 import text from "../assets/images/text.png";
+import lib from "../assets/images/library.jpg"
 import project3 from "../assets/images/projects/project7.png";
 import project4 from "../assets/images/projects/project6.png";
 import project6 from "../assets/images/projects/project12.png";
@@ -22,10 +23,31 @@ export default class Portfolio extends Component {
     const projects = [
       {
         id: 4,
+        image: lib,
+        title: "Library Management System ",
+        description:"Developed a web system with signup and login functionality, incorporating RESTful APIs. Designed for   three distinct user roles:  Admin: Responsible for overseeing user accounts and library book management.Librarian: Empowered to add, view, and delete books from the library inventory.Student: Enabled students to borrow, return books, and aintain their profiles.Achieved full CRUD operation",
+        
+        sourceCodeLink: "https://github.com/Akshad7829/Godigit_project",
+        technologies: [
+          { id: 1, name: "Core , Advance Java" },
+          { id: 2, name: "Spring MVC" },
+          { id: 3, name: "SpringBoot" },
+          { id: 4, name: "REST APIs" },
+          { id: 5, name: "Hibernate" },
+          { id: 6, name: "JavaServer Pages (JSP)" },
+          { id: 7, name: "PostgreSQL" },
+
+
+        ],
+        category_id: 1,
+        animation: "zoom-in-up",
+      },
+      {
+        id: 4,
         image: book,
         title: "ProjectBook ",
         description:
-          " Sign in and Sign up system using Email. Students will be able to get to know the projects made by other students.  Users can get guidance of projects from project developers.  Users can get to know the contest details",
+          " Sign in and Sign up system using Email. Students will be able to get to know the projects made by other students.  Users can get guidance of projects from project developers.  Users can get to know the contest details                                                                                                  ",
         
        // demoLink: "https://tranquil-chamber-60677.herokuapp.com/",
         sourceCodeLink: "https://github.com/Akshad7829/project",
@@ -36,6 +58,7 @@ export default class Portfolio extends Component {
           { id: 4, name: "Firebase" },
         ],
         category_id: 1,
+        showmore:"adskj",
         animation: "zoom-in-up",
       },
       {
@@ -46,6 +69,7 @@ export default class Portfolio extends Component {
           "In this Website, you can write your text and edit it Some of the features of MS-Word are present.",
         demoLink: "https://text-mate.netlify.app/",
         sourceCodeLink: "https://github.com/Akshad7829/Text-Editor",
+       
         technologies: [
           { id: 1, name: "HTML5" },
           { id: 2, name: "CSS3" },
@@ -53,6 +77,8 @@ export default class Portfolio extends Component {
       
         ],
         category_id: 1,
+        showmore:" ",
+
         animation: "zoom-in-up",
       },
       {
@@ -69,6 +95,8 @@ export default class Portfolio extends Component {
         
       ],
         category_id: 2,
+        showmore:" ",
+
         animation: "fade-down-left",
       },
       

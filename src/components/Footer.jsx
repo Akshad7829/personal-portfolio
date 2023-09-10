@@ -50,7 +50,7 @@ export default class Footer extends Component {
               
                 <li>
                   <a
-                    href="https://www.instagram.com/akshu_7829_/"
+                    href="https://www.instagram.com/silent_dude._/"
                     target="blank"
                   >
                     <IconContext.Provider

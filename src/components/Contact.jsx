@@ -28,11 +28,11 @@ export default function Contact() {
             <h3 className="hero-hello">Contact </h3>
           </div>
           <h2 className="slogan">Let's do it together</h2>
-
-          <p className="about-work">
-            Question, comment or concern? this contact form is the best way to
+    
+          {/* <p className="about-work">
+            Question, comment or concern? Below Contact details are the best way to
             get in touch with me.
-          </p>
+          </p> */}
 
           <div className="contact-address-wrapper">
             <ul>
